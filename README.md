@@ -7,4 +7,9 @@ from the clients that use it.
 Take the parts that vary and encapsulate them, so later you can alter or extend the parts
 that vary without affecting those that do not.
 
+### Desing principles
+* Identify the aspects of your application that vary and separate them from what stays the same.
+* Program to an interface, not an implementation.
+* Favor composition over inheritance.
+
 *This definition was obtained from the book [Head First Desing Patterns](https://www.amazon.com/-/es/Eric-Freeman/dp/0596007124)*
