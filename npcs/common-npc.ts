@@ -1,6 +1,6 @@
 export abstract class CommonNPC {
   abstract attackBehavior: IAttackBehavior;
-  abstract defendBehavior: IDefendBehavior;
+  abstract defendBehavior: IDefenseBehavior;
 
   constructor() {}
 

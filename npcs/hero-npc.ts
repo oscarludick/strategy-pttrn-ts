@@ -1,14 +1,14 @@
 import { AttackWithSword } from "../algorithms/attack-with-sword";
-import { DefendWithShield } from "../algorithms/defend-with-shield";
+import { DefenseWithShield } from "../algorithms/defense-with-shield";
 import { CommonNPC } from "./common-npc";
 
 export class HeroNPC extends CommonNPC {
   attackBehavior: IAttackBehavior;
-  defendBehavior: IDefendBehavior;
+  defendBehavior: IDefenseBehavior;
 
   constructor(
     mAttackBehavior?: IAttackBehavior,
-    mDefendBehavior?: IDefendBehavior
+    mDefendBehavior?: IDefenseBehavior
   ) {
     super();
     this.attackBehavior = mAttackBehavior
@@ -16,7 +16,7 @@ export class HeroNPC extends CommonNPC {
       : new AttackWithSword();
     this.defendBehavior = mDefendBehavior
       ? mDefendBehavior
-      : new DefendWithShield();
+      : new DefenseWithShield();
   }
 
   whatIam(): void {

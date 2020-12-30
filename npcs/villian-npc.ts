@@ -1,14 +1,14 @@
 import { AttackWithMagic } from "../algorithms/attack-with-magic";
-import { DefendWithSword } from "../algorithms/defend-with-sword";
+import { DefenseWithSword } from "../algorithms/defense-with-sword";
 import { CommonNPC } from "./common-npc";
 
 export class VillianNPC extends CommonNPC {
   attackBehavior: IAttackBehavior;
-  defendBehavior: IDefendBehavior;
+  defendBehavior: IDefenseBehavior;
 
   constructor(
     mAttackBehavior?: IAttackBehavior,
-    mDefendBehavior?: IDefendBehavior
+    mDefendBehavior?: IDefenseBehavior
   ) {
     super();
     this.attackBehavior = mAttackBehavior
@@ -16,7 +16,7 @@ export class VillianNPC extends CommonNPC {
       : new AttackWithMagic();
     this.defendBehavior = mDefendBehavior
       ? mDefendBehavior
-      : new DefendWithSword();
+      : new DefenseWithSword();
   }
 
   whatIam(): void {

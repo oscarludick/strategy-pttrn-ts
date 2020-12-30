@@ -1,3 +1,0 @@
-interface IDefendBehavior {
-  defend(): void;
-}
