@@ -12,4 +12,9 @@ that vary without affecting those that do not.
 * Program to an interface, not an implementation.
 * Favor composition over inheritance.
 
+
+### The example
+
+[Hero/Villian example](example-strategy-pattern.png)
+
 *This definition was obtained from the book [Head First Desing Patterns](https://www.amazon.com/-/es/Eric-Freeman/dp/0596007124)*
