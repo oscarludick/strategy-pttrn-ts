@@ -1,5 +1,5 @@
-import { AttackWithMagic } from "./behaviors/attack-with-magic";
-import { DefenseWithSword } from "./behaviors/defense-with-sword";
+import { AttackWithMagic } from "./behaviors/attack-behavior/attack-with-magic";
+import { DefenseWithSword } from "./behaviors/defense-behavior/defense-with-sword";
 import { CommonNPC } from "./common-npc";
 
 export class VillianNPC extends CommonNPC {
