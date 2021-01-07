@@ -1,11 +1,13 @@
 # Strategy Pattern
 
-The following information is for personal use.
+The following information is for personal use or reference aid
 
 ### Desing principles used in Stragegy pattern
 * Identify the aspects of your application that vary and separate them from what stays the same.
 * Program to an interface, not an implementation.
 * Favor composition over inheritance.
+
+This definition was obtained from the book [Head First Desing Patterns](https://www.amazon.com/-/es/Eric-Freeman/dp/0596007124).
 
 >Take what varies and "encapsulate" it so it won't affect the rest of your code. It will result on fewer unintended consequences from code changes and more flexibility in your systems. If you have got some aspect on your code that is changing, say with every new requierement, then you know you have got a behavior that needs to be pulled out and separated from all the stuff that doesn't change.
 >
