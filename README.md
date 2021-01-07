@@ -78,7 +78,7 @@ export abstract class CommonNPC {
 }
 ```
 
-Encapsulating the behaviors implemeting an interface
+Encapsulating the behaviors/algorithms
 
 ```ts
 export class AttackWithMagic implements IAttackBehavior {
