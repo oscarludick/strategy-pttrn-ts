@@ -2,7 +2,7 @@
 
 The following text was obtained from the book [Head First Desing Patterns](https://www.amazon.com/-/es/Eric-Freeman/dp/0596007124).
 
-### Desing principles used in Stragegy pattern
+### Design principles used in Stragegy pattern
 
 * Identify the aspects of your application that vary and separate them from what stays the same.
 * Program to an interface, not an implementation.
